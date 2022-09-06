@@ -38,14 +38,15 @@ jobs:
     # 若该时间段没有 CVE， 则 file://cache/mail.dat 文件不会生成，此时不会发送邮件
     - name: Send mail
       if: ${{ github.event_name != 'pull_request' }}
-      uses: ./
+      uses: dawidd6/action-send-mail@v3
       #uses: adminlove520/action-send-mail@master
       with:
         server_address: ${{ secrets.MAIL_SMTP }}
         server_port: 465
         username: ${{ secrets.MAIL_USER }}
         password: ${{ secrets.MAIL_PASS }}
-        from: ${{ secrets.MAIL_USER }}
+#         from: ${{ secrets.MAIL_USER }}
+        send: 希望安全库 | 漏洞情报播报
         to: file://cache/mail_recvs.dat # ${{ secrets.MAIL_RECV }}
         body: file://cache/mail_content.dat
         content_type: text/html
