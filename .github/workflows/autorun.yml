@@ -46,7 +46,7 @@ jobs:
         username: ${{ secrets.MAIL_USER }}
         password: ${{ secrets.MAIL_PASS }}
 #         from: ${{ secrets.MAIL_USER }}
-        send: 希望安全库 | 漏洞情报播报
+        send: ${{ secrets.MAIL_USER }}
         to: file://cache/mail_recvs.dat # ${{ secrets.MAIL_RECV }}
         body: file://cache/mail_content.dat
         content_type: text/html
