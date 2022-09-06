@@ -39,7 +39,7 @@ jobs:
     - name: Send mail
       if: ${{ github.event_name != 'pull_request' }}
         #uses: actions/action-send-mail@master
-      uses: Nazicc/action-send-mail@master
+      uses: adminlove520/action-send-mail@master
       with:
         server_address: ${{ secrets.MAIL_SMTP }}
         server_port: 465
