@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-09-20 14:10:19 -->
+<!-- RELEASE TIME : 2022-09-20 17:51:45 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,54 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">2bd4deb28f273b5140a570e48e3129f6</td>
+       <td>CVE-2022-32167</td>
+       <td>2022-09-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Cloudreve versions v1.0.0 through v3.5.3 are vulnerable to Stored Cross-Site Scripting (XSS), via the file upload functionality. A low privileged user will be able to share a file with an admin user, which could lead to privilege escalation.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-32167">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">cdf605ab54599e1ffbdb3745af7b1b76</td>
+       <td>CVE-2021-33081</td>
+       <td>2022-09-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Protection mechanism failure in firmware for some Intel(R) SSD DC Products may allow a privileged user to potentially enable information disclosure via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33081">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5f1360215407ec6d6fcb944aa9f879e4</td>
+       <td>CVE-2021-33079</td>
+       <td>2022-09-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Protection mechanism failure in firmware for some Intel(R) SSD DC Products may allow a privileged user to potentially enable information disclosure via local access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33079">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">fed77272d2fdaa1332099c57ad6ac187</td>
+       <td>CVE-2021-33076</td>
+       <td>2022-09-20 15:15:00 <img src="imgs/new.gif" /></td>
+       <td>Improper authentication in firmware for some Intel(R) SSD DC Products may allow an unauthenticated user to potentially enable escalation of privilege via physical access.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2021-33076">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">8c79d35c569b8e0f6f1b8b0b16857f00</td>
+       <td>CVE-2022-40955</td>
+       <td>2022-09-20 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>In versions of Apache InLong prior to 1.3.0, an attacker with sufficient privileges to specify MySQL JDBC connection URL parameters and to write arbitrary data to the MySQL database, could cause this data to be deserialized by Apache InLong, potentially leading to Remote Code Execution on the Apache InLong server. Users are advised to upgrade to Apache InLong 1.3.0 or newer.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40955">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4086054880fa28e3ed50e9055b95427e</td>
+       <td>CVE-2022-3245</td>
+       <td>2022-09-20 14:15:00 <img src="imgs/new.gif" /></td>
+       <td>HTML injection attack is closely related to Cross-site Scripting (XSS). HTML injection uses HTML to deface the page. XSS, as the name implies, injects JavaScript into the page. Both attacks exploit insufficient validation of user input.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-3245">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">69e0b60108059f88f87da3a0f9e61851</td>
        <td>CVE-2022-3242</td>
        <td>2022-09-20 11:15:00 <img src="imgs/new.gif" /></td>
@@ -469,54 +517,6 @@
        <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
        <td>IBM Spectrum Protect Plus 10.1.6 through 10.1.11 Microsoft File Systems restore operation can download any file on the target machine by manipulating the URL with a directory traversal attack. This results in the restore operation gaining access to files which the operator should not have access to. IBM X-Force ID: 235873.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40608">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7411d34a8497d519f227a32fa3d8d11e</td>
-       <td>CVE-2022-40234</td>
-       <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>Versions of IBM Spectrum Protect Plus prior to 10.1.12 (excluding 10.1.12) include the private key information for a certificate inside the generated .crt file when uploading a TLS certificate to IBM Spectrum Protect Plus. If this generated .crt file is shared, an attacker can obtain the private key information for the uploaded certificate. IBM X-Force ID: 235718.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40234">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">93ea9838ac9a71b1f01093621bc657c2</td>
-       <td>CVE-2022-40144</td>
-       <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service could allow an attacker to bypass the product’s login authentication by falsifying request parameters on affected installations.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40144">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">82e93827e0abc548b41223a8f60ca160</td>
-       <td>CVE-2022-40143</td>
-       <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A link following local privilege escalation vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service servers could allow a local attacker to abuse an insecure directory that could allow a low-privileged user to run arbitrary code with elevated privileges.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40143">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6ea9a7aea99076043f1780819849712e</td>
-       <td>CVE-2022-40142</td>
-       <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A security link following local privilege escalation vulnerability in Trend Micro Apex One and Trend Micro Apex One as a Service agents could allow a local attacker to create a writable folder in an arbitrary location and escalate privileges on affected installations.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40142">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b144f63b4308ba3533f33b9dc7e01da1</td>
-       <td>CVE-2022-40141</td>
-       <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability in Trend Micro Apex One and Apex One as a Service could allow an attacker to intercept and decode certain communication strings that may contain some identification attributes of a particular Apex One server.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40141">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6a62bd779446361561a4f325fe025aa6</td>
-       <td>CVE-2022-40140</td>
-       <td>2022-09-19 18:15:00 <img src="imgs/new.gif" /></td>
-       <td>An origin validation error vulnerability in Trend Micro Apex One and Apex One as a Service could allow a local attacker to cause a denial-of-service on affected installations.Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40140">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d8c91412c4582edff5ae1c00fb7500fe</td>
+       <td>CNVD-2022-64241 (CVE-2022-1357)</td>
+       <td>2022-09-21 17:50:48 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro操作系统命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64241">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b070a5be9c733415ded893c3a72838b0</td>
+       <td>CNVD-2022-64240 (CVE-2022-1358)</td>
+       <td>2022-09-21 17:50:46 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64240">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">43306b4bdefe2aab456d7d7c91335c5d</td>
+       <td>CNVD-2022-64239 (CVE-2022-1361)</td>
+       <td>2022-09-21 17:50:43 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64239">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f4e4d755b340bf5ad7d84107279bd1b2</td>
+       <td>CNVD-2022-64238 (CVE-2022-1360)</td>
+       <td>2022-09-21 17:50:41 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro操作系统命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64238">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b0a683993565fb16e4568e1aa11ded26</td>
+       <td>CNVD-2022-64237 (CVE-2022-1362)</td>
+       <td>2022-09-21 17:50:39 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro操作系统命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64237">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">27768b8d4c160d16f5ebdc42a4ca139c</td>
+       <td>CNVD-2022-64236 (CVE-2022-1359)</td>
+       <td>2022-09-21 17:50:36 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro路径遍历漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64236">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2650e769aaa6dd1fad21f1cc70214f77</td>
+       <td>CNVD-2022-64235 (CVE-2022-1356)</td>
+       <td>2022-09-21 17:50:34 <img src="imgs/new.gif" /></td>
+       <td>Cambium Networks cnMaestro操作系统命令注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-64235">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7e984ca8b38fe4ec9ba9465c4fa8d75a</td>
        <td>CNVD-2022-60929 (CVE-2022-24706)</td>
        <td>2022-09-20 19:41:13 <img src="imgs/new.gif" /></td>
@@ -999,62 +1055,6 @@
        <td>2022-09-16 07:48:30</td>
        <td>Samsung SMR UWB固件缓冲区溢出漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63644">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8997a33c4b3b6e04c0ea08887f822c46</td>
-       <td>CNVD-2022-63643 (CVE-2022-27822)</td>
-       <td>2022-09-16 07:48:28</td>
-       <td>Samsung SMR信息泄露漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63643">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">15feb3f772573bbcaf1c91aecac6129e</td>
-       <td>CNVD-2022-63633 (CVE-2022-27825)</td>
-       <td>2022-09-16 07:09:16</td>
-       <td>Samsung SMR缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63633">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">98fb011111f73e716e7e0384667c3583</td>
-       <td>CNVD-2022-63632 (CVE-2022-27567)</td>
-       <td>2022-09-16 07:09:13</td>
-       <td>Samsung SMR空指针解引用漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63632">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4172dae88c74977da795cc57ffa6aa0</td>
-       <td>CNVD-2022-63631 (CVE-2022-27568)</td>
-       <td>2022-09-16 07:09:11</td>
-       <td>Samsung SMR堆缓冲区溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63631">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cdbc78fd23b071228c3699d46a0a60b7</td>
-       <td>CNVD-2022-63630 (CVE-2022-27574)</td>
-       <td>2022-09-16 07:09:08</td>
-       <td>Samsung SMR输入验证错误漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63630">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f71f436a09b2029b320e28a97039b3f2</td>
-       <td>CNVD-2022-63642 (CVE-2022-26724)</td>
-       <td>2022-09-16 07:09:06</td>
-       <td>Apple tvOS授权问题漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63642">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f2321f5c031f3fd7d5820b9121761a0c</td>
-       <td>CNVD-2022-63641 (CVE-2022-37706)</td>
-       <td>2022-09-16 07:09:02</td>
-       <td>Enlightenment权限提升漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-63641">详情</a></td>
       </tr>
 
      </tbody>
@@ -2412,6 +2412,70 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">d9d317df21730fc732219f9188ed3d58</td>
+       <td>CVE-2022-38997</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect data confidentiality.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38997">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5b3f3f3daead5c857ad552ec6f78f35b</td>
+       <td>CVE-2022-38996</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect system availability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38996">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">55105961bacae6bfba5e44a44cc70a97</td>
+       <td>CVE-2022-38995</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect system availability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38995">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">00207ec0421c33a39a108d58728b7f6d</td>
+       <td>CVE-2022-38994</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect data confidentiality.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38994">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">86761a13e3a82af84bc1094bc97e95f8</td>
+       <td>CVE-2022-38993</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect system availability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38993">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6fd1dac250ae99b07ac8a88430970d9b</td>
+       <td>CVE-2022-38992</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect data confidentiality.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38992">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28cf4447b766043af48f0542d77ec669</td>
+       <td>CVE-2022-38991</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect data confidentiality.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38991">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">7457a4a00e773542ca8bd57d825bed09</td>
+       <td>CVE-2022-38990</td>
+       <td>2022-09-16 18:15:17 </td>
+       <td>The secure OS module has configuration defects. Successful exploitation of this vulnerability may affect system availability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38990">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">4d619124f1cd9b186f8c8b848da52396</td>
        <td>CVE-2022-38833</td>
        <td>2022-09-16 15:15:10 </td>
@@ -2585,70 +2649,6 @@
        <td>2022-09-14 11:15:54 </td>
        <td>libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40674">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">698af9b5d81d0aa753b40cdaab5bdcf2</td>
-       <td>CVE-2022-40673</td>
-       <td>2022-09-14 11:15:53 </td>
-       <td>KDiskMark before 3.1.0 lacks authorization checking for D-Bus methods such as Helper::flushPageCache.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40673">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8d1c9f3152dbdfb376621b533a804e39</td>
-       <td>CVE-2022-40626</td>
-       <td>2022-09-14 11:15:53 </td>
-       <td>An unauthenticated user can create a link with reflected Javascript code inside the backurl parameter and send it to other authenticated users in order to create a fake account with predefined login, password and role in Zabbix Frontend.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40626">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3c20c576933b71a8b010b13a760c1299</td>
-       <td>CVE-2022-37140</td>
-       <td>2022-09-14 11:15:50 </td>
-       <td>PayMoney 3.3 is vulnerable to Client Side Remote Code Execution (RCE). The vulnerability exists on the reply ticket function and upload the malicious file. A calculator will open when the victim who download the file open the RTF file.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37140">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">dc4c68324116f18f581c538885801512</td>
-       <td>CVE-2022-37139</td>
-       <td>2022-09-14 11:15:50 </td>
-       <td>Loan Management System version 1.0 suffers from a persistent cross site scripting vulnerability.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37139">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f8354698d6acb93047888468a92aa932</td>
-       <td>CVE-2022-37138</td>
-       <td>2022-09-14 11:15:50 </td>
-       <td>Loan Management System 1.0 is vulnerable to SQL Injection at the login page, which allows unauthorized users to login as Administrator after injecting username form.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37138">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4c65e661af3859a41e9865aa6851f4c5</td>
-       <td>CVE-2022-37137</td>
-       <td>2022-09-14 11:15:50 </td>
-       <td>PayMoney 3.3 is vulnerable to Stored Cross-Site Scripting (XSS) during replying the ticket. The XSS can be obtain from injecting under &quot;Message&quot; field with &quot;description&quot; parameter with the specially crafted payload to gain Stored XSS. The XSS then will prompt after that or can be access from the view ticket function.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37137">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8d781ec618177b9f828becf835f45fb0</td>
-       <td>CVE-2022-34831</td>
-       <td>2022-09-14 03:15:08 </td>
-       <td>An issue was discovered in Keyfactor PrimeKey EJBCA before 7.9.0, related to possible inconsistencies in DNS identifiers submitted in an ACME order and the corresponding CSR submitted during finalization. During the ACME enrollment process, an order is submitted containing an identifier for one or multiple dnsNames. These are validated properly in the ACME challenge. However, if the validation passes, a non-compliant client can include additional dnsNames the CSR sent to the finalize endpoint, resulting in EJBCA issuing a certificate including the identifiers that were not validated. This occurs even if the certificate profile is configured to not allow a DN override by the CSR.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-34831">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">5d0c6e2f6f8bdf2b01c348fe3a60d0be</td>
-       <td>CVE-2022-37190</td>
-       <td>2022-09-13 23:15:08 </td>
-       <td>CuppaCMS 1.0 is vulnerable to Remote Code Execution (RCE). An authenticated user can control both parameters (action and function) from &quot;/api/index.php.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-37190">详情</a></td>
       </tr>
 
      </tbody>
