@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-14 05:52:44 -->
+<!-- RELEASE TIME : 2022-10-14 07:11:23 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,62 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">9e35bdc9a46587e61582d2f7429a8077</td>
+       <td>CVE-2022-36803</td>
+       <td>2022-10-14 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>The MasterUserEdit API in Atlassian Jira Align Server before version 10.109.2 allows An authenticated attacker with the People role permission to use the MasterUserEdit API to modify any users role to Super Admin. This vulnerability was reported by Jacob Shafer from Bishop Fox.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36803">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d5df96ab703cfaf4d4ffde2bfb474293</td>
+       <td>CVE-2022-36802</td>
+       <td>2022-10-14 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>The ManageJiraConnectors API in Atlassian Jira Align before version 10.109.2 allows remote attackers to exploit this issue to access internal network resources via a Server-Side Request Forgery. This can be exploited by a remote, unauthenticated attacker with Super Admin privileges by sending a specially crafted HTTP request.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36802">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">979cff7a4bb3115e4bcf5298f0aa8dba</td>
+       <td>CVE-2022-42722</td>
+       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>In the Linux kernel 5.8 through 5.19.14, local attackers able to inject WLAN frames into the mac80211 stack could cause a NULL pointer dereference denial-of-service attack against the beacon protection of P2P devices.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42722">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">baf5fe580bb24e1afc94d56067557395</td>
+       <td>CVE-2022-42721</td>
+       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>A list management bug in BSS handling in the mac80211 stack in the Linux kernel 5.1 through 5.19.14 could be used by local attackers (able to inject WLAN frames) to corrupt a linked list and, in turn, potentially execute code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42721">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">819e4520c86e2aa38b50d46b67aaa00d</td>
+       <td>CVE-2022-42720</td>
+       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Various refcounting bugs in the multi-BSS handling in the mac80211 stack in the Linux kernel 5.1 through 5.19.14 could be used by local attackers (able to inject WLAN frames) to trigger use-after-free conditions to potentially execute code.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42720">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">abeab7eefa3329269ff4bd1689318e03</td>
+       <td>CVE-2022-41674</td>
+       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>An issue was discovered in the Linux kernel through 5.19.11. Attackers able to inject WLAN frames could cause a buffer overflow in the ieee80211_bss_info_update function in net/mac80211/scan.c.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41674">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">ce4174d08f672ebf0a4b6c8fdf782ce8</td>
+       <td>CVE-2022-39302</td>
+       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
+       <td>Ree6 is a moderation bot. This vulnerability would allow other server owners to create configurations such as "Better-Audit-Logging" which contain a channel from another server as a target. This would mean you could send log messages to another Guild channel and bypass raid and webhook protections. A specifically crafted log message could allow spamming and mass advertisements. This issue has been patched in version 1.9.9. There are currently no known workarounds.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39302">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">7a7514c5cacf81de8bd2cc935d7e118e</td>
        <td>CVE-2022-42719</td>
        <td>2022-10-13 23:15:00 <img src="imgs/new.gif" /></td>
@@ -461,62 +517,6 @@
        <td>2022-09-30 19:15:00</td>
        <td>A vulnerability in the processing of malformed Common Industrial Protocol (CIP) packets that are sent to Cisco IOS Software and Cisco IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to unexpectedly reload, resulting in a denial of service (DoS) condition. This vulnerability is due to insufficient input validation during processing of CIP packets. An attacker could exploit this vulnerability by sending a malformed CIP packet to an affected device. A successful exploit could allow the attacker to cause the affected device to unexpectedly reload, resulting in a DoS condition.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20919">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">2b11162f3b92f82c4285c76a9c8639ee</td>
-       <td>CVE-2022-20856</td>
-       <td>2022-09-30 19:15:00</td>
-       <td>A vulnerability in the processing of Control and Provisioning of Wireless Access Points (CAPWAP) Mobility messages in Cisco IOS XE Wireless Controller Software for the Catalyst 9000 Family could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device. This vulnerability is due to a logic error and improper management of resources related to the handling of CAPWAP Mobility messages. An attacker could exploit this vulnerability by sending crafted CAPWAP Mobility packets to an affected device. A successful exploit could allow the attacker to exhaust resources on the affected device. This would cause the device to reload, resulting in a DoS condition.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-20856">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">e555fe62f7b7c94ba847b201928f95fb</td>
-       <td>CVE-2022-40316</td>
-       <td>2022-09-30 17:15:00</td>
-       <td>The H5P activity attempts report did not filter by groups, which in separate groups mode could reveal information to non-editing teachers about attempts/users in groups they should not have access to.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40316">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cec5822efd58a8c8f8fc7271dedb578d</td>
-       <td>CVE-2022-40315</td>
-       <td>2022-09-30 17:15:00</td>
-       <td>A limited SQL injection risk was identified in the "browse list of users" site administration page.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40315">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">44022299d846bd5639d6da787e02f1f3</td>
-       <td>CVE-2022-40314</td>
-       <td>2022-09-30 17:15:00</td>
-       <td>A remote code execution risk when restoring backup files originating from Moodle 1.9 was identified.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40314">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cdb713337eafa39f4de7ab331cd142e0</td>
-       <td>CVE-2022-40313</td>
-       <td>2022-09-30 17:15:00</td>
-       <td>Recursive rendering of Mustache template helpers containing user input could, in some cases, result in an XSS risk or a page failing to load.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40313">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f46a0bda79abcc815ac60a2c18389ab1</td>
-       <td>CVE-2022-40277</td>
-       <td>2022-09-30 17:15:00</td>
-       <td>Joplin version 2.8.8 allows an external attacker to execute arbitrary commands remotely on any client that opens a link in a malicious markdown file, via Joplin. This is possible because the application does not properly validate the schema/protocol of existing links in the markdown file before passing them to the 'shell.openExternal' function.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40277">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">31afdacf0d95f0c693a64c308f92bee5</td>
-       <td>CVE-2022-40274</td>
-       <td>2022-09-30 17:15:00</td>
-       <td>Gridea version 0.9.3 allows an external attacker to execute arbitrary code remotely on any client attempting to view a malicious markdown file through Gridea. This is possible because the application has the 'nodeIntegration' option enabled.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-40274">详情</a></td>
       </tr>
 
      </tbody>
@@ -818,6 +818,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">b3d396552a0ec0aa21340998aa2f5ddb</td>
+       <td>CNVD-2022-68930 (CVE-2022-36067)</td>
+       <td>2022-10-14 07:10:29 <img src="imgs/new.gif" /></td>
+       <td>VM2远程代码执行漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-68930">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">99d41d79d0b163b771fa2ae981f94a57</td>
        <td>CNVD-2022-68928 (CVE-2021-22800)</td>
        <td>2022-10-14 05:51:47 <img src="imgs/new.gif" /></td>
@@ -1047,14 +1055,6 @@
        <td>2022-09-30 07:21:11</td>
        <td>Microsoft Exchange Server服务端请求伪造漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66758">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ca6b71cf770d1eb18ed10c47f776eccf</td>
-       <td>CNVD-2022-66757</td>
-       <td>2022-09-30 07:21:09</td>
-       <td>Microsoft Exchange Server远程代码执行漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-66757">详情</a></td>
       </tr>
 
      </tbody>
@@ -1420,6 +1420,14 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">21b52f3e67817704fe413a2410530c53</td>
+       <td>CVE-2022-36802,CVE-2022-36803</td>
+       <td>2022-10-14 14:45:14 <img src="imgs/new.gif" /></td>
+       <td>Atlassian Jira Align 存在多个漏洞</td>
+       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7613">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">da65ed8826701cfa728f35b9af3acf2a</td>
        <td>CVE-2022-24697</td>
        <td>2022-10-14 09:33:50 <img src="imgs/new.gif" /></td>
@@ -1649,14 +1657,6 @@
        <td>2022-08-19 17:46:41</td>
        <td>Apache ActiveMQ Artemis HTML 注入漏洞</td>
        <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7396">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">598f3cf745d213c137e50ffaa1d9234e</td>
-       <td>CVE-2022-20871</td>
-       <td>2022-08-18 11:51:34</td>
-       <td>Cisco AsyncOS for Cisco Secure Web Appliance权限提升漏洞</td>
-       <td><a target="_blank" href="https://poc.shuziguanxing.com/#/publicIssueInfo#issueId=7387">详情</a></td>
       </tr>
 
      </tbody>
