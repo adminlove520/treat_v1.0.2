@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-10-14 15:54:40 -->
+<!-- RELEASE TIME : 2022-10-14 17:56:32 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">86993371aca9ec1f3def9e9849cced2a</td>
+       <td>CVE-2022-42488</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>OpenHarmony-v3.1.2 and prior versions have a Missing permission validation vulnerability in param service of startup subsystem. An malicious application installed on the device could elevate its privileges to the root user, disable security features, or cause DoS by disabling particular services.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42488">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">1db5778b86ea9255fcab89ad262a27e8</td>
+       <td>CVE-2022-42464</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>OpenHarmony-v3.1.2 and prior versions, 3.0.6 and prior versions have a Kernel memory pool override vulnerability in /dev/mmz_userdev device driver. The impact depends on the privileges of the attacker. The unprivileged process run on the device could disclose sensitive information including kernel pointer, which could be used in further attacks. The processes with system user UID run on the device would be able to mmap memory pools used by kernel and override them which could be used to gain kernel code execution on the device, gain root privileges, or cause device reboot.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42464">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e889256da1a824d48d0df3bf06cd2904</td>
+       <td>CVE-2022-42463</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>OpenHarmony-v3.1.2 and prior versions have an authenication bypass vulnerability in a callback handler function of Softbus_server in communication subsystem. Attackers can launch attacks on distributed networks by sending Bluetooth rfcomm packets to any remote device and executing arbitrary commands.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42463">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b9bbb5f301107875e07f6a1eac3428be</td>
+       <td>CVE-2022-42071</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>Online Birth Certificate Management System version 1.0 suffers from a Cross Site Scripting (XSS) Vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42071">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">aa1908cb5ebf7a66227547e6153f6105</td>
+       <td>CVE-2022-42070</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>Online Birth Certificate Management System version 1.0 is vulnerable to Cross Site Request Forgery (CSRF).</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42070">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d479e32946b1da0384b096edc6ca04d8</td>
+       <td>CVE-2022-42069</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>Online Birth Certificate Management System version 1.0 suffers from a persistent Cross Site Scripting (XSS) vulnerability.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42069">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">58e59ce3e55651a5d95c73e028d1be3b</td>
+       <td>CVE-2022-42066</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>Online Examination System version 1.0 suffers from a cross site scripting vulnerability via index.php.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42066">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">45f2ebe7b8abd8ce774ccb9f9f0410d5</td>
+       <td>CVE-2022-42064</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>Online Diagnostic Lab Management System version 1.0 remote exploit that bypasses login with SQL injection and then uploads a shell.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42064">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c4f7930015109a4f98d0f12f1511ef0c</td>
+       <td>CVE-2022-41715</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>Programs which compile regular expressions from untrusted sources may be vulnerable to memory exhaustion or denial of service. The parsed regexp representation is linear in the size of the input, but in some cases the constant factor can be as high as 40,000, making relatively small regexps consume much larger amounts of memory. After fix, each regexp being parsed is limited to a 256 MB memory footprint. Regular expressions whose representation would use more space than that are rejected. Normal use of regular expressions is unaffected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41715">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dc9f255243d097d08a9bf85f93d2a3a6</td>
+       <td>CVE-2022-41686</td>
+       <td>2022-10-14 15:16:00 <img src="imgs/new.gif" /></td>
+       <td>OpenHarmony-v3.1.2 and prior versions, 3.0.6 and prior versions have an Out-of-bound memory read and write vulnerability in /dev/mmz_userdev device driver. The impact depends on the privileges of the attacker. The unprivileged process run on the device could read out-of-bound memory leading sensitive to information disclosure. The processes with system user UID run on the device would be able to write out-of-bound memory which could lead to unspecified memory corruption.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41686">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">1a417da911f3688ff618c755d541e70b</td>
        <td>CVE-2022-35059</td>
        <td>2022-10-14 12:15:00 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2022-10-14 06:15:00 <img src="imgs/new.gif" /></td>
        <td>Open Source SACCO Management System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /sacco_shield/manage_borrower.php.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41535">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">fd1676b7b63bd937a2552eec943dd61e</td>
-       <td>CVE-2022-41539</td>
-       <td>2022-10-14 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Wedding Planner v1.0 was discovered to contain an arbitrary file upload vulnerability in the component /admin/users_add.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41539">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">56fbbbecf91000bb3b2263bd50f78a1e</td>
-       <td>CVE-2022-41538</td>
-       <td>2022-10-14 05:15:00 <img src="imgs/new.gif" /></td>
-       <td>Wedding Planner v1.0 was discovered to contain an arbitrary file upload vulnerability in the component /Wedding-Management-PHP/admin/photos_add.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41538">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">9e35bdc9a46587e61582d2f7429a8077</td>
-       <td>CVE-2022-36803</td>
-       <td>2022-10-14 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>The MasterUserEdit API in Atlassian Jira Align Server before version 10.109.2 allows An authenticated attacker with the People role permission to use the MasterUserEdit API to modify any users role to Super Admin. This vulnerability was reported by Jacob Shafer from Bishop Fox.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36803">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d5df96ab703cfaf4d4ffde2bfb474293</td>
-       <td>CVE-2022-36802</td>
-       <td>2022-10-14 04:15:00 <img src="imgs/new.gif" /></td>
-       <td>The ManageJiraConnectors API in Atlassian Jira Align before version 10.109.2 allows remote attackers to exploit this issue to access internal network resources via a Server-Side Request Forgery. This can be exploited by a remote, unauthenticated attacker with Super Admin privileges by sending a specially crafted HTTP request.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36802">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">979cff7a4bb3115e4bcf5298f0aa8dba</td>
-       <td>CVE-2022-42722</td>
-       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>In the Linux kernel 5.8 through 5.19.14, local attackers able to inject WLAN frames into the mac80211 stack could cause a NULL pointer dereference denial-of-service attack against the beacon protection of P2P devices.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42722">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">baf5fe580bb24e1afc94d56067557395</td>
-       <td>CVE-2022-42721</td>
-       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>A list management bug in BSS handling in the mac80211 stack in the Linux kernel 5.1 through 5.19.14 could be used by local attackers (able to inject WLAN frames) to corrupt a linked list and, in turn, potentially execute code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42721">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">819e4520c86e2aa38b50d46b67aaa00d</td>
-       <td>CVE-2022-42720</td>
-       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Various refcounting bugs in the multi-BSS handling in the mac80211 stack in the Linux kernel 5.1 through 5.19.14 could be used by local attackers (able to inject WLAN frames) to trigger use-after-free conditions to potentially execute code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42720">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">abeab7eefa3329269ff4bd1689318e03</td>
-       <td>CVE-2022-41674</td>
-       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>An issue was discovered in the Linux kernel through 5.19.11. Attackers able to inject WLAN frames could cause a buffer overflow in the ieee80211_bss_info_update function in net/mac80211/scan.c.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-41674">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ce4174d08f672ebf0a4b6c8fdf782ce8</td>
-       <td>CVE-2022-39302</td>
-       <td>2022-10-14 00:15:00 <img src="imgs/new.gif" /></td>
-       <td>Ree6 is a moderation bot. This vulnerability would allow other server owners to create configurations such as "Better-Audit-Logging" which contain a channel from another server as a target. This would mean you could send log messages to another Guild channel and bypass raid and webhook protections. A specifically crafted log message could allow spamming and mass advertisements. This issue has been patched in version 1.9.9. There are currently no known workarounds.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39302">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7a7514c5cacf81de8bd2cc935d7e118e</td>
-       <td>CVE-2022-42719</td>
-       <td>2022-10-13 23:15:00 <img src="imgs/new.gif" /></td>
-       <td>A use-after-free in the mac80211 stack when parsing a multi-BSSID element in the Linux kernel 5.2 through 5.19.14 could be used by attackers (able to inject WLAN frames) to crash the kernel and potentially execute code.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-42719">详情</a></td>
       </tr>
 
      </tbody>
@@ -2604,51 +2604,51 @@
       </tr>
 
       <tr>
-       <td scope="row">af68d01dcb879bdcac457836daeba46c</td>
-       <td>CVE-2022-41851</td>
-       <td>2022-10-11 11:15:11 </td>
-       <td>A vulnerability has been identified in JTTK (All versions &lt; V11.1.1.0), Simcenter Femap V2022.1 (All versions &lt; V2022.1.3), Simcenter Femap V2022.2 (All versions &lt; V2022.2.2). The JTTK library is vulnerable to an uninitialized pointer reference vulnerability while parsing specially crafted JT files. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-16973)</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41851">详情</a></td>
+       <td scope="row">33107c6275015494814c8184a2c2a27d</td>
+       <td>CVE-2022-38029</td>
+       <td>2022-10-11 19:15:15 </td>
+       <td>Windows ALPC Elevation of Privilege Vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38029">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">c6b8515a919125b11a09bc6d52b0612f</td>
-       <td>CVE-2022-41665</td>
-       <td>2022-10-11 11:15:11 </td>
-       <td>A vulnerability has been identified in SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P850 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10), SICAM P855 (All versions &lt; V3.10). Affected devices do not properly validate the parameter of a specific GET request. This could allow an authenticated attacker to set the device to a denial of service state or to control the program counter and, thus, execute arbitrary code on the device.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41665">详情</a></td>
+       <td scope="row">2e97cf7fdb8a03ebdd745a7baae11b30</td>
+       <td>CVE-2022-38028</td>
+       <td>2022-10-11 19:15:15 </td>
+       <td>Windows Print Spooler Elevation of Privilege Vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38028">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">5e5e0a346af3009c7592a99939e42dd0</td>
-       <td>CVE-2022-40177</td>
-       <td>2022-10-11 11:15:10 </td>
-       <td>A vulnerability has been identified in Desigo PXM30-1 (All versions &lt; V02.20.126.11-41), Desigo PXM30.E (All versions &lt; V02.20.126.11-41), Desigo PXM40-1 (All versions &lt; V02.20.126.11-41), Desigo PXM40.E (All versions &lt; V02.20.126.11-41), Desigo PXM50-1 (All versions &lt; V02.20.126.11-41), Desigo PXM50.E (All versions &lt; V02.20.126.11-41), PXG3.W100-1 (All versions &lt; V02.20.126.11-37), PXG3.W100-2 (All versions &lt; V02.20.126.11-41), PXG3.W200-1 (All versions &lt; V02.20.126.11-37), PXG3.W200-2 (All versions &lt; V02.20.126.11-41). Endpoints of the &acirc;&euro;&oelig;Operation&acirc;&euro;&#65533; web application that interpret and execute Axon language queries allow file read access to the device file system with root privileges. By supplying specific I/O related Axon queries, a remote low-privileged attacker can read sensitive files on the device.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40177">详情</a></td>
+       <td scope="row">5a00f390b486c72df0c28dddb02116aa</td>
+       <td>CVE-2022-38027</td>
+       <td>2022-10-11 19:15:14 </td>
+       <td>Windows Storage Elevation of Privilege Vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38027">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">6da5a7b2d917df2ad55f7804c53477ba</td>
-       <td>CVE-2022-40176</td>
-       <td>2022-10-11 11:15:10 </td>
-       <td>A vulnerability has been identified in Desigo PXM30-1 (All versions &lt; V02.20.126.11-41), Desigo PXM30.E (All versions &lt; V02.20.126.11-41), Desigo PXM40-1 (All versions &lt; V02.20.126.11-41), Desigo PXM40.E (All versions &lt; V02.20.126.11-41), Desigo PXM50-1 (All versions &lt; V02.20.126.11-41), Desigo PXM50.E (All versions &lt; V02.20.126.11-41), PXG3.W100-1 (All versions &lt; V02.20.126.11-37), PXG3.W100-2 (All versions &lt; V02.20.126.11-41), PXG3.W200-1 (All versions &lt; V02.20.126.11-37), PXG3.W200-2 (All versions &lt; V02.20.126.11-41). There exists an Improper Neutralization of Special Elements used in an OS Command with root privileges during a restore operation due to the missing validation of the names of files included in the input package. By restoring a specifically crafted package, a remote low-privileged attacker can execute arbitrary system commands with root privileges on the device, leading to a full compromise.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40176">详情</a></td>
+       <td scope="row">5a77c18be2c191fe7bf5110878dfa08d</td>
+       <td>CVE-2022-38026</td>
+       <td>2022-10-11 19:15:14 </td>
+       <td>Windows DHCP Client Information Disclosure Vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38026">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">99d6f872fb2b462756cc34a508bf4cfb</td>
-       <td>CVE-2022-40147</td>
-       <td>2022-10-11 11:15:10 </td>
-       <td>A vulnerability has been identified in Industrial Edge Management (All versions &lt; V1.5.1). The affected software does not properly validate the server certificate when initiating a TLS connection. This could allow an attacker to spoof a trusted entity by interfering in the communication path between the client and the intended server.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40147">详情</a></td>
+       <td scope="row">c804b4a5a1176d0e17f371ec67f04e36</td>
+       <td>CVE-2022-38025</td>
+       <td>2022-10-11 19:15:14 </td>
+       <td>Windows Distributed File System (DFS) Information Disclosure Vulnerability.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38025">详情</a></td>
       </tr>
 
       <tr>
-       <td scope="row">5423468cac2fdcc9b0c684c8ac32c750</td>
-       <td>CVE-2022-40138</td>
-       <td>2022-10-11 02:15:08 </td>
-       <td>An integer conversion error in Hermes bytecode generation, prior to commit 6aa825e480d48127b480b08d13adf70033237097, could have been used to perform Out-Of-Bounds operations and subsequently execute arbitrary code. Note that this is only exploitable in cases where Hermes is used to execute untrusted JavaScript. Hence, most React Native applications are not affected.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40138">详情</a></td>
+       <td scope="row">6da8245c4984ea6f32c2d281ed701cb1</td>
+       <td>CVE-2022-38022</td>
+       <td>2022-10-11 19:15:14 </td>
+       <td>Windows Kernel Elevation of Privilege Vulnerability. This CVE ID is unique from CVE-2022-37988, CVE-2022-37990, CVE-2022-37991, CVE-2022-37995, CVE-2022-38037, CVE-2022-38038, CVE-2022-38039.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-38022">详情</a></td>
       </tr>
 
      </tbody>
