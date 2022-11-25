@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-11-25 11:38:14 -->
+<!-- RELEASE TIME : 2022-11-25 13:02:00 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">0ac152d45ff24ad4fa003d4870e4ed4b</td>
+       <td>CVE-2022-4091</td>
+       <td>2022-11-25 08:15:00 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability was found in SourceCodester Canteen Management System. It has been classified as problematic. This affects the function query of the file food.php. The manipulation of the argument product_name leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-214359.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4091">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">6428be9fa69795a9c9e097a4e605c3ca</td>
+       <td>CVE-2022-36133</td>
+       <td>2022-11-25 06:15:00 <img src="imgs/new.gif" /></td>
+       <td>The WebConfig functionality of Epson TM-C3500 and TM-C7500 devices with firmware version WAM31500 allows authentication bypass.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-36133">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">250a8c734a6f7e34376db8fd7ea8ffa3</td>
        <td>CVE-2022-40282</td>
        <td>2022-11-25 05:15:00 <img src="imgs/new.gif" /></td>
@@ -503,22 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-4136">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">1cb342ca399ab50f21fa55942afc1857</td>
-       <td>CVE-2022-44749</td>
-       <td>2022-11-24 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A directory traversal vulnerability in the ZIP archive extraction routines of KNIME Analytics Platform 3.2.0 and above can result in arbitrary files being overwritten on the user's system. This vulnerability is also known as 'Zip-Slip'. An attacker can create a KNIME workflow that, when being opened by a user, can overwrite arbitrary files that the user has write access to. It's not necessary to execute the workflow, opening the workflow is sufficient. The user will notice that something is wrong because an error is being reported but only after the files have already been written. This can impact data integrity (file contents are changed) or cause errors in other software (vital files being corrupted). It can even lead to remote code execution if executable files are being replaced and subsequently executed by the user. In all cases the attacker has to know the location of files on the user's system, though.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44749">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">adf4ab4dfc171a387e2444eb935796af</td>
-       <td>CVE-2022-44748</td>
-       <td>2022-11-24 07:15:00 <img src="imgs/new.gif" /></td>
-       <td>A directory traversal vulnerability in the ZIP archive extraction routines of KNIME Server since 4.3.0 can result in arbitrary files being overwritten on the server's file system. This vulnerability is also known as 'Zip-Slip'. An attacker can create a KNIME workflow that, when being uploaded, can overwrite arbitrary files that the operating system user running the KNIME Server process has write access to. The user must be authenticated and have permissions to upload files to KNIME Server. This can impact data integrity (file contents are changed) or cause errors in other software (vital files being corrupted). It can even lead to remote code execution if executable files are being replaced and subsequently executed by the KNIME Server process user. In all cases the attacker has to know the location of files on the server's file system, though. Note that users that have permissions to upload workflows usually also have permissions to run them on the KNIME Server and can therefore already execute arbitrary code in the context of the KNIME Executor's operating system user. There is no workaround to prevent this vulnerability from being exploited. Updates to fixed versions 4.13.6, 4.14.3, or 4.15.3 are advised.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-44748">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,42 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">e0349725c365c4476dd2fdf2341301c0</td>
+       <td>VHN-429947</td>
+       <td>2022-11-25 13:01:46 <img src="imgs/new.gif" /></td>
+       <td>NETGEAR R7000P缓冲区溢出漏洞（CNVD-2022-81488）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429947">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">2446add2c6b67fd7c43732970879a41c</td>
+       <td>VHN-429948</td>
+       <td>2022-11-25 13:01:46 <img src="imgs/new.gif" /></td>
+       <td>NETGEAR R7000P缓冲区溢出漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429948">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">3eeba840221143a2847db657b6898c02</td>
+       <td>VHN-429949</td>
+       <td>2022-11-25 13:01:46 <img src="imgs/new.gif" /></td>
+       <td>D-Link DIR-823G操作系统命令注入漏洞（CNVD-2022-81490）
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429949">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">68126f6e05750572b23f406f799267a0</td>
+       <td>VHN-429950</td>
+       <td>2022-11-25 13:01:46 <img src="imgs/new.gif" /></td>
+       <td>D-Link DIR-823G命令执行漏洞
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-429950">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">2e415dd1c0525f193dd6c34f09948650</td>
        <td>VHN-429946</td>
@@ -765,42 +801,6 @@
        <td>Jenkins Gerrit Trigger Plugin跨站脚本漏洞
                     </td>
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420573">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">273705ac66a29287d5df36fe138011ba</td>
-       <td>CVE-2022-29040</td>
-       <td>2022-11-23 08:43:29</td>
-       <td>Jenkins Git Parameter Plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420574">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">8a12554c9b6d2cac69f5bde8b19f5034</td>
-       <td>CVE-2022-29042</td>
-       <td>2022-11-23 08:43:29</td>
-       <td>Jenkins Job Generator Plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420576">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c08ce98acb8fa5857e3f7732a20a8cd4</td>
-       <td>CVE-2022-29043</td>
-       <td>2022-11-23 08:43:29</td>
-       <td>Jenkins Mask Passwords Plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420577">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d37c7087a1ba86cde8a32b669b5d1787</td>
-       <td>CVE-2022-29044</td>
-       <td>2022-11-23 08:43:29</td>
-       <td>Jenkins Node and Label parameter Plugin跨站脚本漏洞
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-420578">详情</a></td>
       </tr>
 
      </tbody>
