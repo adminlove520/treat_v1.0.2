@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2022-12-08 06:43:28 -->
+<!-- RELEASE TIME : 2022-12-08 08:42:31 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">c50bc72cf8cc2fea9a61f426ae636c39</td>
+       <td>CVE-2022-23476</td>
+       <td>2022-12-08 04:15:00 <img src="imgs/new.gif" /></td>
+       <td>Nokogiri is an open source XML and HTML library for the Ruby programming language. Nokogiri `1.13.8` and `1.13.9` fail to check the return value from `xmlTextReaderExpand` in the method `Nokogiri::XML::Reader#attribute_hash`. This can lead to a null pointer exception when invalid markup is being parsed. For applications using `XML::Reader` to parse untrusted inputs, this may potentially be a vector for a denial of service attack. Users are advised to upgrade to Nokogiri `>= 1.13.10`. Users may be able to search their code for calls to either `XML::Reader#attributes` or `XML::Reader#attribute_hash` to determine if they are affected.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23476">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">c6a3f0760f99cf3d7ecea2059c0b0abb</td>
+       <td>CVE-2022-23492</td>
+       <td>2022-12-08 01:15:00 <img src="imgs/new.gif" /></td>
+       <td>go-libp2p is the offical libp2p implementation in the Go programming language. Version `0.18.0` and older of go-libp2p are vulnerable to targeted resource exhaustion attacks. These attacks target libp2p’s connection, stream, peer, and memory management. An attacker can cause the allocation of large amounts of memory, ultimately leading to the process getting killed by the host’s operating system. While a connection manager tasked with keeping the number of connections within manageable limits has been part of go-libp2p, this component was designed to handle the regular churn of peers, not a targeted resource exhaustion attack. Users are advised to upgrade their version of go-libp2p to version `0.18.1` or newer. Users unable to upgrade may consult the denial of service (dos) mitigation page for more information on how to incorporate mitigation strategies, monitor your application, and respond to attacks.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-23492">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">2475ba27c25238397cd4ba90ab8689bd</td>
        <td>CVE-2022-4291</td>
        <td>2022-12-08 00:15:00 <img src="imgs/new.gif" /></td>
@@ -503,22 +519,6 @@
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-39044">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">6ed9d64f58e13639b8c5ec2a02826c83</td>
-       <td>CVE-2022-34840</td>
-       <td>2022-12-07 10:15:00 <img src="imgs/new.gif" /></td>
-       <td>Use of hard-coded credentials vulnerability in multiple Buffalo network devices allows a network-adjacent attacker to alter?configuration settings of the device. The affected products/versions are as follows: WZR-300HP firmware Ver. 2.00 and earlier, WZR-450HP firmware Ver. 2.00 and earlier, WZR-600DHP firmware Ver. 2.00 and earlier, WZR-900DHP firmware Ver. 1.15 and earlier, HW-450HP-ZWE firmware Ver. 2.00 and earlier, WZR-450HP-CWT firmware Ver. 2.00 and earlier, WZR-450HP-UB firmware Ver. 2.00 and earlier, WZR-600DHP2 firmware Ver. 1.15 and earlier, and WZR-D1100H firmware Ver. 2.00 and earlier.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-34840">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">df84b3e15ef70200d1887fb88111f6e2</td>
-       <td>CVE-2022-46742</td>
-       <td>2022-12-07 09:15:00 <img src="imgs/new.gif" /></td>
-       <td>Code injection in paddle.audio.functional.get_window in PaddlePaddle 2.4.0-rc0 allows arbitrary code execution.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2022-46742">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -533,6 +533,24 @@
        <th scope="col">TITLE</th>
        <th scope="col">URL</th>
       </tr>
+      <tr>
+       <td scope="row">37b23bc3420676e582512de6cb49dc85</td>
+       <td>CVE-2022-23476</td>
+       <td>2022-12-08 08:42:17 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412650">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b5ee26589f07e3e65381dc88435d2c87</td>
+       <td>CVE-2022-23492</td>
+       <td>2022-12-08 08:42:17 <img src="imgs/new.gif" /></td>
+       <td>RESERVED CVE CANDIDATE NUMBER...
+                    </td>
+       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-412666">详情</a></td>
+      </tr>
+
       <tr>
        <td scope="row">51e3bc755c97dad68cbe191e40cbd0a6</td>
        <td>CVE-2022-3084</td>
@@ -785,24 +803,6 @@
        <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447304">详情</a></td>
       </tr>
 
-      <tr>
-       <td scope="row">34ae7781dcca5731a9ba938170fd8677</td>
-       <td>CVE-2022-4322</td>
-       <td>2022-12-07 12:59:05 <img src="imgs/new.gif" /></td>
-       <td>A vulnerability, which was classified as...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-447198">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">66ea245891024b0c54d1487f3b4e171a</td>
-       <td>CVE-2022-37406</td>
-       <td>2022-12-07 12:59:05 <img src="imgs/new.gif" /></td>
-       <td>Cross-site scripting vulnerability in Aficio...
-                    </td>
-       <td><a target="_blank" href="http://cve.scap.org.cn/vuln/VHN-433265">详情</a></td>
-      </tr>
-
      </tbody>
     </table>
    </div>
@@ -855,6 +855,22 @@
        <td>2022-12-08 16:48:49 <img src="imgs/new.gif" /></td>
        <td>Intelbras SG 2404 MR存在未明漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85694">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">4906385752cf67736504ece0fd91a971</td>
+       <td>CNVD-2022-85764 (CVE-2022-20308)</td>
+       <td>2022-12-08 08:42:03 <img src="imgs/new.gif" /></td>
+       <td>Google Android拒绝服务漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85764">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">95256f0058b6961e6f41a13f1ff4ee24</td>
+       <td>CNVD-2022-85765 (CVE-2022-20341)</td>
+       <td>2022-12-08 08:42:01 <img src="imgs/new.gif" /></td>
+       <td>Google Android信息泄露漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85765">详情</a></td>
       </tr>
 
       <tr>
@@ -1039,22 +1055,6 @@
        <td>2022-12-06 09:37:50</td>
        <td>Google Chrome Extensions代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85083">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c1c47747205e9dfe97647fd073a232a4</td>
-       <td>CNVD-2022-85115 (CVE-2022-30001)</td>
-       <td>2022-12-06 09:37:47</td>
-       <td>Insurance Management System SQL注入漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85115">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">4901b3fcd7f663312a08d6b1227a1afa</td>
-       <td>CNVD-2022-85113 (CVE-2021-45348)</td>
-       <td>2022-12-06 09:37:45</td>
-       <td>Attendance Management System任意文件删除漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2022-85113">详情</a></td>
       </tr>
 
      </tbody>
