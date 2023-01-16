@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-01-16 16:46:23 -->
+<!-- RELEASE TIME : 2023-01-16 17:37:54 -->
 <html lang="zh-cn">
 
  <head>
@@ -2604,6 +2604,30 @@
       </tr>
 
       <tr>
+       <td scope="row">3691c70f06ef3da0e3de8f5989dd9303</td>
+       <td>CVE-2023-22477</td>
+       <td>2023-01-09 15:15:11 </td>
+       <td>Mercurius is a GraphQL adapter for Fastify. Any users of Mercurius until version 10.5.0 are subjected to a denial of service attack by sending a malformed packet over WebSocket to `/graphql`. This issue was patched in #940. As a workaround, users can disable subscriptions.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22477">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">d6314fb696e69eb831f561a01c31849c</td>
+       <td>CVE-2023-22473</td>
+       <td>2023-01-09 15:15:11 </td>
+       <td>Talk-Android enables users to have video &amp; audio calls through Nextcloud on Android. Due to passcode bypass, an attacker is able to access the user's Nextcloud files and view conversations. To exploit this the attacker needs to have physical access to the target's device. There are currently no known workarounds available. It is recommended that the Nextcloud Talk Android app is upgraded to 15.0.2.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22473">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">dce2bf86d7ea7d7c8c30cb47491594bc</td>
+       <td>CVE-2023-22472</td>
+       <td>2023-01-09 14:15:10 </td>
+       <td>Deck is a kanban style organization tool aimed at personal planning and project organization for teams integrated with Nextcloud. It is possible to make a user send any POST request with an arbitrary body given they click on a malicious deep link on a Windows computer. (e.g. in an email, chat link, etc). There are currently no known workarounds. It is recommended that the Nextcloud Desktop client is upgraded to 3.6.2.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22472">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">cab64a46b24fc3f355d327a211b58bf7</td>
        <td>CVE-2022-43974</td>
        <td>2023-01-09 09:15:10 </td>
@@ -2641,30 +2665,6 @@
        <td>2023-01-06 19:15:09 </td>
        <td>There is a SQL injection vulnerability in Some ZTE Mobile Internet products. Due to insufficient validation of the input parameters of the SNTP interface, an authenticated attacker could use the vulnerability to execute stored XSS attacks.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-39072">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7771d217bbc13a45f45155945ce9cdbe</td>
-       <td>CVE-2022-44149</td>
-       <td>2023-01-06 17:15:09 </td>
-       <td>The web service on Nexxt Amp300 ARN02304U8 42.103.1.5095 devices allows remote OS command execution by placing &amp;telnetd in the JSON host field to the ping feature of the goform/sysTools component. Authentication is required.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-44149">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7c935f38a099e45157b92d2279c0327e</td>
-       <td>CVE-2023-22671</td>
-       <td>2023-01-06 07:15:08 </td>
-       <td>Ghidra/RuntimeScripts/Linux/support/launch.sh in NSA Ghidra through 10.2.2 passes user-provided input into eval, leading to command injection when calling analyzeHeadless with untrusted input.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-22671">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">cfe9ff096a6529684244dd9dc9449efc</td>
-       <td>CVE-2022-3929</td>
-       <td>2023-01-05 22:15:09 </td>
-       <td>Communication between the client and the server application of the affected products is partially done using CORBA (Common Object Request Broker Architecture) over TCP/IP. This protocol is not encrypted and allows tracing of internal messages. This issue affects * FOXMAN-UN product: FOXMAN-UN R15B, FOXMAN-UN R15A, FOXMAN-UN R14B, FOXMAN-UN R14A, FOXMAN-UN R11B, FOXMAN-UN R11A, FOXMAN-UN R10C, FOXMAN-UN R9C; * UNEM product: UNEM R15B, UNEM R15A, UNEM R14B, UNEM R14A, UNEM R11B, UNEM R11A, UNEM R10C, UNEM R9C. List of CPEs: * cpe:2.3:a:hitachienergy:foxman-un:R15B:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R15A:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R14B:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R14A:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R11B:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R11A:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R10C:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:foxman-un:R9C:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R15B:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R15A:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R14B:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R14A:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R11B:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R11A:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R10C:*:*:*:*:*:*:* * cpe:2.3:a:hitachienergy:unem:R9C:*:*:*:*:*:*:*</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-3929">详情</a></td>
       </tr>
 
      </tbody>
