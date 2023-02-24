@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-02-24 09:38:43 -->
+<!-- RELEASE TIME : 2023-02-24 11:37:59 -->
 <html lang="zh-cn">
 
  <head>
@@ -2492,6 +2492,14 @@
       </tr>
 
       <tr>
+       <td scope="row">a31ef33ea9ca39c16517607607c94b2d</td>
+       <td>CVE-2023-24580</td>
+       <td>2023-02-15 01:15:10 </td>
+       <td>An issue was discovered in the Multipart Request Parser in Django 3.2 before 3.2.18, 4.0 before 4.0.10, and 4.1 before 4.1.7. Passing certain inputs (e.g., an excessive number of parts) to multipart forms could result in too many open files or memory exhaustion, and provided a potential vector for a denial-of-service attack.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24580">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">dd4750ec31b96767c9c9fa8427a74cec</td>
        <td>CVE-2023-25725</td>
        <td>2023-02-14 19:15:11 </td>
@@ -2668,19 +2676,11 @@
       </tr>
 
       <tr>
-       <td scope="row">f9f38f97128a0a329454d3d89d61e957</td>
-       <td>CVE-2023-24556</td>
-       <td>2023-02-14 11:15:15 </td>
-       <td>A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24556">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">99f04888d9f9d7ca057b86c4c3748dcd</td>
-       <td>CVE-2023-24555</td>
-       <td>2023-02-14 11:15:15 </td>
-       <td>A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24555">详情</a></td>
+       <td scope="row">c459fb310bbc05df094d51e29f3571b3</td>
+       <td>CVE-2023-24581</td>
+       <td>2023-02-14 11:15:16 </td>
+       <td>A vulnerability has been identified in Solid Edge SE2022 (All versions &lt; V2210Update12), Solid Edge SE2022 (All versions), Solid Edge SE2023 (All versions &lt; V2023Update2). The affected application contains a use-after-free vulnerability that could be triggered while parsing specially crafted STP files. An attacker could leverage this vulnerability to execute code in the context of the current process. (ZDI-CAN-19425)</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24581">详情</a></td>
       </tr>
 
      </tbody>
