@@ -57,7 +57,7 @@ jobs:
       run: |-
         git diff
         git config --global user.email "791751568@qq.com"
-        git config --global user.name "Github-Bot"
+        git config --global user.name "adminlove520"
         git add -A
         git commit -m "Updated by Github Bot" || exit 0
         git push origin master
