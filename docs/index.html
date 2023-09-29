@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2023-09-29 15:41:02 -->
+<!-- RELEASE TIME : 2023-09-29 16:42:05 -->
 <html lang="zh-cn">
 
  <head>
@@ -818,6 +818,22 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">133772dc8a104c5d6a60cc4e0d97f81d</td>
+       <td>CNVD-2023-69422</td>
+       <td>2023-09-30 16:39:32 <img src="imgs/new.gif" /></td>
+       <td>北京网御星云信息技术有限公司网御上网行为管理系统Leadsec ACM存在SQL注入漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-69422">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">15f1576e4f6d6375eec2d3e2b4c3258e</td>
+       <td>CNVD-2023-68768</td>
+       <td>2023-09-30 16:39:29 <img src="imgs/new.gif" /></td>
+       <td>陕西锦华网络科技有限责任公司数字报后台管理系统存在文件上传漏洞</td>
+       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-68768">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">e627162ec386cf49015af40d22ac6c9e</td>
        <td>CNVD-2023-69800</td>
        <td>2023-09-29 16:40:55 <img src="imgs/new.gif" /></td>
@@ -1039,22 +1055,6 @@
        <td>2023-03-09 03:05:46</td>
        <td>Tenda AC18远程代码执行漏洞</td>
        <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-15693">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">b0a11a5cb3a8d60250f239666e972983</td>
-       <td>CNVD-2023-15695 (CVE-2022-37798)</td>
-       <td>2023-03-08 03:06:00</td>
-       <td>Tenda AC1206堆栈溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-15695">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">7e5e056e07510a7c6353f89cce2653ef</td>
-       <td>CNVD-2023-15697 (CVE-2022-43108)</td>
-       <td>2023-03-08 03:05:58</td>
-       <td>Tenda AC23堆栈溢出漏洞</td>
-       <td><a target="_blank" href="https://www.cnvd.org.cn/flaw/show/CNVD-2023-15697">详情</a></td>
       </tr>
 
      </tbody>
@@ -2468,6 +2468,30 @@
       </tr>
 
       <tr>
+       <td scope="row">7ac7db75f1d6efa4a1e5ef1e17310d3c</td>
+       <td>CVE-2023-5176</td>
+       <td>2023-09-27 15:19:42 </td>
+       <td>Memory safety bugs present in Firefox 117, Firefox ESR 115.2, and Thunderbird 115.2. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox &lt; 118, Firefox ESR &lt; 115.3, and Thunderbird &lt; 115.3.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5176">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">93a30f171133ad61e25d2170ff919175</td>
+       <td>CVE-2023-5174</td>
+       <td>2023-09-27 15:19:42 </td>
+       <td>If Windows failed to duplicate a handle during process creation, the sandbox code may have inadvertently freed a pointer twice, resulting in a use-after-free and a potentially exploitable crash.*This bug only affects Firefox on Windows when run in non-standard configurations (such as using `runas`). Other operating systems are unaffected.* This vulnerability affects Firefox &lt; 118, Firefox ESR &lt; 115.3, and Thunderbird &lt; 115.3.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5174">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e73fcab94a81816b2403bde465b34e5b</td>
+       <td>CVE-2023-5161</td>
+       <td>2023-09-27 15:19:41 </td>
+       <td>The Modal Window plugin for WordPress is vulnerable to Stored Cross-Site Scripting via shortcodes in versions up to, and including, 5.3.5 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.</td>
+       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-5161">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">b6280c6240f209cade713c64e689eb5e</td>
        <td>CVE-2023-5166</td>
        <td>2023-09-25 16:15:15 </td>
@@ -2657,30 +2681,6 @@
        <td>2023-03-02 01:15:11 </td>
        <td>teler-waf is a Go HTTP middleware that provides teler IDS functionality to protect against web-based attacks. In teler-waf prior to version 0.1.1 is vulnerable to bypassing common web attack rules when a specific HTML entities payload is used. This vulnerability allows an attacker to execute arbitrary JavaScript code on the victim's browser and compromise the security of the web application. The vulnerability exists due to teler-waf failure to properly sanitize and filter HTML entities in user input. An attacker can exploit this vulnerability to bypass common web attack threat rules in teler-waf and launch cross-site scripting (XSS) attacks. The attacker can execute arbitrary JavaScript code on the victim's browser and steal sensitive information, such as login credentials and session tokens, or take control of the victim's browser and perform malicious actions. This issue has been fixed in version 0.1.1.</td>
        <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-26046">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">1adf1c3ced432a3e76b6821a3641193a</td>
-       <td>CVE-2023-24127</td>
-       <td>2023-03-01 21:15:11 </td>
-       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey1 parameter at /goform/WifiBasicSet.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24127">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">28853d463a95e7f6580647a57211420d</td>
-       <td>CVE-2023-24126</td>
-       <td>2023-03-01 21:15:11 </td>
-       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey4_5g parameter at /goform/WifiBasicSet.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24126">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">6de8b8cf49bffa016e2b1a605f8dec6f</td>
-       <td>CVE-2023-24134</td>
-       <td>2023-03-01 20:15:18 </td>
-       <td>Jensen of Scandinavia Eagle 1200AC V15.03.06.33_en was discovered to contain a stack overflow via the wepkey3 parameter at /goform/WifiBasicSet.</td>
-       <td><a target="_blank" href="https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-24134">详情</a></td>
       </tr>
 
      </tbody>
