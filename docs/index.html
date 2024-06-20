@@ -1,4 +1,4 @@
-<!-- RELEASE TIME : 2024-06-20 16:45:10 -->
+<!-- RELEASE TIME : 2024-06-20 19:41:25 -->
 <html lang="zh-cn">
 
  <head>
@@ -280,6 +280,86 @@
        <th scope="col">URL</th>
       </tr>
       <tr>
+       <td scope="row">11faf00911923c807c2372ce948a89f8</td>
+       <td>CVE-2024-6187</td>
+       <td>2024-06-20 13:15:50 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability has been found in Ruijie RG-UAC 1.0 and classified as critical. This vulnerability affects unknown code of the file /view/vpn/autovpn/sub_commit.php. The manipulation of the argument key leads to os command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-269158 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6187">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">220a6db36a25747a056b6dfeac91491f</td>
+       <td>CVE-2024-6186</td>
+       <td>2024-06-20 13:15:50 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as critical, was found in Ruijie RG-UAC 1.0. This affects an unknown part of the file /view/userAuthentication/SSO/commit.php. The manipulation of the argument ad_log_name leads to os command injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-269157 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6186">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">5102f9f9fdf71e243c8d837a55c55e92</td>
+       <td>CVE-2023-49113</td>
+       <td>2024-06-20 13:15:49 <img src="imgs/new.gif" /></td>
+       <td>The Kiuwan Local Analyzer (KLA) Java scanning application contains several hard-coded secrets in plain text format. In some cases, this can potentially compromise the confidentiality of the scan results. Several credentials were found in the JAR files of the Kiuwan Local Analyzer. The JAR file "lib.engine/insight/optimyth-insight.jar" contains the file "InsightServicesConfig.properties", which has the configuration tokens "insight.github.user" as well as "insight.github.password" prefilled with credentials. At least the specified username corresponds to a valid GitHub account. The JAR file "lib.engine/insight/optimyth-insight.jar" also contains the file "es/als/security/Encryptor.properties", in which the key used for encrypting the results of any performed scan. This issue affects Kiuwan SAST: <master.1808.p685.q13371</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-49113">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">50a9f9e8da4831e93a85aa605a68bd36</td>
+       <td>CVE-2023-49112</td>
+       <td>2024-06-20 13:15:49 <img src="imgs/new.gif" /></td>
+       <td>Kiuwan provides an API endpoint /saas/rest/v1/info/application to get information about any application, providing only its name via the "application" parameter. This endpoint lacks proper access control mechanisms, allowing other authenticated users to read information about applications, even though they have not been granted the necessary rights to do so. This issue affects Kiuwan SAST: <master.1808.p685.q13371</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-49112">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">28ea75e6a55e6c331907150de4841df0</td>
+       <td>CVE-2023-49111</td>
+       <td>2024-06-20 13:15:49 <img src="imgs/new.gif" /></td>
+       <td>For Kiuwan installations with SSO (single sign-on) enabled, an unauthenticated reflected cross-site scripting attack can be performed on the login page "login.html". This is possible due to the request parameter "message" values being directly included in a JavaScript block in the response. This is especially critical in business environments using AD SSO authentication, e.g. via ADFS, where attackers could potentially steal AD passwords. This issue affects Kiuwan SAST: <master.1808.p685.q13371</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-49111">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b3e8328966ea850a3303912355683e36</td>
+       <td>CVE-2023-49110</td>
+       <td>2024-06-20 13:15:49 <img src="imgs/new.gif" /></td>
+       <td>When the Kiuwan Local Analyzer uploads the scan results to the Kiuwan SAST web application (either on-premises or cloud/SaaS solution), the transmitted data consists of a ZIP archive containing several files, some of them in the XML file format. During Kiuwan's server-side processing of these XML files, it resolves external XML entities, resulting in a XML external entity injection attack. An attacker with privileges to scan source code within the "Code Security" module is able to extract any files of the operating system with the rights of the application server user and is potentially able to gain sensitive files, such as configuration and passwords. Furthermore, this vulnerability also allows an attacker to initiate connections to internal systems, e.g. for port scans or accessing other internal functions / applications such as the Wildfly admin console of Kiuwan. This issue affects Kiuwan SAST: <master.1808.p685.q13371</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-49110">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">0c6421284c121fbe91fc930a753d2360</td>
+       <td>CVE-2024-6185</td>
+       <td>2024-06-20 12:15:15 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability, which was classified as critical, has been found in Ruijie RG-UAC 1.0. Affected by this issue is the function get_ip_addr_details of the file /view/dhcp/dhcpConfig/commit.php. The manipulation of the argument ethname leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-269156. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6185">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">f619f9a37fcb57b2a93a0105c3ef7a33</td>
+       <td>CVE-2024-6184</td>
+       <td>2024-06-20 12:15:15 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as critical was found in Ruijie RG-UAC 1.0. Affected by this vulnerability is an unknown functionality of the file /view/systemConfig/reboot/reboot_commit.php. The manipulation of the argument servicename leads to os command injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-269155. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6184">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">b85d66027ca5e654f64f2f2f0b80314a</td>
+       <td>CVE-2024-6183</td>
+       <td>2024-06-20 12:15:15 <img src="imgs/new.gif" /></td>
+       <td>A vulnerability classified as problematic has been found in EZ-Suite EZ-Partner 5. Affected is an unknown function of the component Forgot Password Handler. The manipulation leads to basic cross site scripting. It is possible to launch the attack remotely. VDB-269154 is the identifier assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6183">详情</a></td>
+      </tr>
+
+      <tr>
+       <td scope="row">e17b26aa5d6bc457e114e208a0dd370c</td>
+       <td>CVE-2023-52883</td>
+       <td>2024-06-20 12:15:15 <img src="imgs/new.gif" /></td>
+       <td>In the Linux kernel, the following vulnerability has been resolved: drm/amdgpu: Fix possible null pointer dereference abo->tbo.resource may be NULL in amdgpu_vm_bo_update.</td>
+       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-52883">详情</a></td>
+      </tr>
+
+      <tr>
        <td scope="row">34c9b1faed881a3af9d6112c94597723</td>
        <td>CVE-2024-6176</td>
        <td>2024-06-20 01:15:49 <img src="imgs/new.gif" /></td>
@@ -437,86 +517,6 @@
        <td>2024-06-19 13:15:52 <img src="imgs/new.gif" /></td>
        <td>Missing Authorization vulnerability in WooCommerce WooCommerce Stripe Payment Gateway.This issue affects WooCommerce Stripe Payment Gateway: from n/a through 7.4.0.</td>
        <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2023-35049">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d28b118e0c49e08394316ef28cae1dcb</td>
-       <td>CVE-2024-6115</td>
-       <td>2024-06-18 13:15:53</td>
-       <td>A vulnerability classified as critical was found in itsourcecode Simple Online Hotel Reservation System 1.0. Affected by this vulnerability is an unknown functionality of the file add_room.php. The manipulation of the argument photo leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-268867.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6115">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">d4b2fee114de73a3cf9fb536a593af57</td>
-       <td>CVE-2024-6114</td>
-       <td>2024-06-18 13:15:52</td>
-       <td>A vulnerability classified as critical has been found in itsourcecode Monbela Tourist Inn Online Reservation System up to 1.0. Affected is an unknown function of the file controller.php. The manipulation of the argument image leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-268866 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6114">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">3c60ec19d24cc0ef6a90b8d2ed3b5e8b</td>
-       <td>CVE-2024-6112</td>
-       <td>2024-06-18 13:15:52</td>
-       <td>A vulnerability classified as critical was found in itsourcecode Pool of Bethesda Online Reservation System 1.0. This vulnerability affects unknown code of the file index.php. The manipulation of the argument log_email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-268858 is the identifier assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6112">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">c4feffe043e4c852f03357cd259d76d8</td>
-       <td>CVE-2024-6111</td>
-       <td>2024-06-18 13:15:52</td>
-       <td>A vulnerability classified as critical has been found in itsourcecode Pool of Bethesda Online Reservation System 1.0. This affects an unknown part of the file login.php. The manipulation of the argument email leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-268857 was assigned to this vulnerability.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6111">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">f6eae5d0c45daeb60988440d01d57f62</td>
-       <td>CVE-2024-6110</td>
-       <td>2024-06-18 12:15:13</td>
-       <td>A vulnerability was found in itsourcecode Magbanua Beach Resort Online Reservation System up to 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file controller.php. The manipulation of the argument image leads to unrestricted upload. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-268856.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6110">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ea8f310aa1b2f8ab4cbbdc58d71fcb7d</td>
-       <td>CVE-2024-6109</td>
-       <td>2024-06-18 12:15:12</td>
-       <td>A vulnerability was found in itsourcecode Tailoring Management System 1.0. It has been declared as critical. Affected by this vulnerability is an unknown functionality of the file addmeasurement.php. The manipulation of the argument id leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-268855.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-6109">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">783b67f14c0415590b43bc4e8bff788d</td>
-       <td>CVE-2024-5967</td>
-       <td>2024-06-18 12:15:12</td>
-       <td>A vulnerability was found in Keycloak. The LDAP testing endpoint allows changing the Connection URL independently without re-entering the currently configured LDAP bind credentials. This flaw allows an attacker with admin access (permission manage-realm) to change the LDAP host URL ("Connection URL") to a machine they control. The Keycloak server will connect to the attacker's host and try to authenticate with the configured credentials, thus leaking them to the attacker. As a consequence, an attacker who has compromised the admin console or compromised a user with sufficient privileges can leak domain credentials and attack the domain.</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-5967">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">21b80a84305197f5193c7f5b0fa603d9</td>
-       <td>CVE-2024-38507</td>
-       <td>2024-06-18 11:15:52</td>
-       <td>In JetBrains Hub before 2024.2.34646 stored XSS via project description was possible</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-38507">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">313d5744895262d51fe925c1acf46c55</td>
-       <td>CVE-2024-38506</td>
-       <td>2024-06-18 11:15:52</td>
-       <td>In JetBrains YouTrack before 2024.2.34646 user without appropriate permissions could enable the auto-attach option for workflows</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-38506">详情</a></td>
-      </tr>
-
-      <tr>
-       <td scope="row">ccf1eb843fa76cbcb43bbe992bc30941</td>
-       <td>CVE-2024-38505</td>
-       <td>2024-06-18 11:15:51</td>
-       <td>In JetBrains YouTrack before 2024.2.34646 user access token was sent to the third-party site</td>
-       <td><a target="_blank" href="https://www.tenable.com/cve/CVE-2024-38505">详情</a></td>
       </tr>
 
      </tbody>
