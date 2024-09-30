@@ -58,6 +58,9 @@ jobs:
         git diff
         git config --global user.email "791751568@qq.com"
         git config --global user.name "adminlove520"
+        git lfs install
+        git lfs track *.log
+        git lfs track *.db
         git add -A
         git commit -m "Updated by Github Bot" || exit 0
         git push origin master
